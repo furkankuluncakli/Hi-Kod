@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+body{
+    background-color: #f0f0f0;
+}
+a{
+    text-decoration: none;
+}
+#carouselExampleIndicators{
+    width: 80%; /* Sabit genişlik */
+    height: 500px; /* Sabit yükseklik */
+    margin: auto; /* Ortalamak için */
+    overflow: hidden; /* Taşan içeriği gizlemek için */
+    border: 1px solid #ddd; /* İsteğe bağlı bir kenarlık */
+    border-radius: 10px; /* İsteğe bağlı yuvarlatılmış köşeler */
+  }
+#carouselExampleIndicators .carousel-inner{
+    width: 100%; /* Carousel içeriği genişliği */
+    height: 100%; /* Carousel içeriği yüksekliği */
+  }
+  #carouselExampleIndicators .carousel-inner img{
+    object-fit: cover; /* Görsellerin düzgün uyumu */
+    width: 100%; /* Görsel genişliği */
+    height: 100%; /* Görsel yüksekliği */
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 40;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+} 
+.card-alt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: #333;
+    color: black;
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    text-align: center;  
+    margin:30px; 
+    font-size:2rem;
+}
+.card-1{
+background-image: url(/siteDenemeleri/örnekresim1\ \(1\).webp);
+    background-size: cover;
+}
+.card-2{
+    background-image: url(/siteDenemeleri/örnekresim1\ \(2\).webp);
+    background-size: cover;
+}
+.card:hover{
+    width: 290px;
+    height: 290px;
+}
