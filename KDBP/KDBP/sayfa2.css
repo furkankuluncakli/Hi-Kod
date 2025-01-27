@@ -1,0 +1,86 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+body{
+  background-color: #e9ecef;
+}
+.navbar{
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Yüksek bir z-index kullanarak her şeyin üzerinde kalmasını sağlayın */
+  background-color: #f8f9fa; /* Nav-bar arka plan rengi */
+  margin-bottom: 0;
+  border-bottom: 1px solid black;
+}
+.article1-body{
+  margin:1.5em;
+  text-align: center;
+}
+#scrollspyHeading1{
+  text-align: center;
+  margin-top: 0.75em;
+  margin-bottom: 1em;
+}
+#scrollspyHeading2{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+#scrollspyHeading3{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+#scrollspyHeading4{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+#scrollspyHeading5{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+.timeline-container{
+  margin:0;
+  padding:20px;
+  text-align: center;
+}
+.horizontal-timeline{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  border-top: 3px solid black;
+}
+button{
+  background-color: white;,
+  border: 0px solid white;
+}
+.timeline-step {
+  text-align: center;
+  position: relative;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  line-height: 80px;
+  font-weight: bold;
+  margin: 0 auto; 
+  margin-top: -5px;
+}
+
+.info {
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #555;
+}
