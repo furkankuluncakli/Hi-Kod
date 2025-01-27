@@ -29,14 +29,16 @@ a{
     height: 100%; /* Görsel yüksekliği */
 }
 .card-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
     min-height: 100vh;
+    max-width: 100%;
     margin: 40;
 }
 .cards{
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 } 
@@ -59,11 +61,11 @@ a{
     font-size:2rem;
 }
 .card-1{
-background-image: url(/siteDenemeleri/örnekresim1\ \(1\).webp);
+background-image: url(/KDBP/örnekresim1\ \(1\).webp);
     background-size: cover;
 }
 .card-2{
-    background-image: url(/siteDenemeleri/örnekresim1\ \(2\).webp);
+    background-image: url(/KDBP/örnekresim1\ \(2\).webp);
     background-size: cover;
 }
 .card:hover{
