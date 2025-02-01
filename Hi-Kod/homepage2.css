@@ -1,0 +1,147 @@
+*{
+  margin:0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f1f1f1;;
+}
+.navbar{
+  width: 100%;
+  height: 60px;
+  background-color: rgb(130, 47, 115);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 0 0 0 ;
+  position: sticky;
+  z-index: 1000;
+  color: #efe6e6;
+}
+.navbar img{
+  width:30px;
+  height: 30px;
+}
+.video{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+video{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  object-fit:cover;
+  z-index: -1000;
+}
+.card-container{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.cards{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card{
+  width:200px;
+  height: 125px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin:0;
+  border-radius: 0;
+  border: 0px solid black;
+  background-color: rgba(255, 255, 255, 0.455);
+}
+.card-body{
+  width: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0;
+  box-shadow: 0 0 0px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  font-size: 1em;
+}
+.card-body:hover{
+  font-size: larger;
+  cursor: pointer;
+  background-color: rgb(164, 59, 144);
+  color: white;
+}
+.eklemeler{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.eklemeler .card-2{
+  background: #f8f8f8;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+.eklemeler .card-2:hover{
+  box-shadow: 0 3px 2px #33333341;
+}
+.footer{
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 0px;
+  margin-top: auto;
+}
+.footer-container{
+  margin-right: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.footer-card{
+  width: auto;
+  height:   auto;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-card ul{
+  list-style: none;
+}
+.footer-card ul li{
+  margin: 5px;
+}
+.footer-card a{
+  text-decoration: none;
+  color: white;
+  padding-right: auto;
+  padding-left: auto;
+}
+.footer-card a i{
+  margin-right: 10px;
+}
+.footer-card a:hover{
+  color: gray;
+}
+.footer-card p:hover{
+  color: gray;
+}
