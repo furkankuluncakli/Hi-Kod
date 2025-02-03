@@ -5,7 +5,7 @@
 }
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #e9ecef;
+  background: #f6cab6;
   margin-top: 70px;
   color: #C69C6D;
 }
@@ -20,10 +20,10 @@ body {
   background-size: cover;
   height: 500px;
   position: relative;
-  color: #fff;
+  color: #7D3C3C;
 }
 .kapak-background {
-  background-color: #f6cab6;
+  background-color: #C69C6D;
   position: absolute;
   top: 0;
   left: 0;
