@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #e9ecef;
+  margin-top: 70px;
+  color: #C69C6D;
+}
+.navbar-custom {
+  background-color: rgba(149, 0, 255, 0.85) !important;
+}
+.navbar-brand img {
+  width: 40px;
+  height: 40px;
+}
+.kapak {
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  color: #fff;
+}
+.kapak-background {
+  background-color: #f6cab6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.kapak-content {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.kapak-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.kapak-content p {
+  font-size: 1.5rem;
+}
+.section-title {
+  margin: 2rem 0 1rem;
+  text-align: center;
+  color: #E3D5B7;
+  border-bottom: 2px solid #7D3C3C;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+.gövde {
+  background-color: #682e5d;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  margin: 2rem 0;
+  padding: 2rem;
+}
+.social-icons {
+  list-style: none;
+  padding: 0;
+}
+.social-icons li {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+.social-icons li a {
+  font-size: 1.5rem;
+  color: #343a40;
+  transition: color 0.3s;
+}
+.social-icons li a:hover {
+  color: #007bff;
+}
+.footer {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 0px;
+  margin-top: auto;
+}
+.footer-container {
+  margin-right: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.footer-card {
+  width: auto;
+  height: auto;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-card ul {
+  list-style: none;
+}
+.footer-card ul li {
+  margin: 5px;
+}
+.footer-card a {
+  text-decoration: none;
+  color: white;
+  padding-right: auto;
+  padding-left: auto;
+}
+.footer-card a i {
+  margin-right: 10px;
+}
+.footer-card a:hover {
+  color: gray;
+}
+.footer-card p:hover {
+  color: gray;
+}
